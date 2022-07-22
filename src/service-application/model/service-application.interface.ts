@@ -3,6 +3,6 @@ export interface ServiceApplicationKey {
 }
 
 export interface ServiceApplication extends ServiceApplicationKey {
-  idImage: Express.Multer.File;
+  idImage: String;
   CEOName: String;
 }

@@ -27,6 +27,7 @@ export class ServiceApplicationController {
     @Body() createServiceApplicationDto: CreateServiceApplicationDto,
     @UploadedFile() file: Express.Multer.File,
   ) {
+    createServiceApplicationDto.idImage = '';
     return this.serviceApplicationService.create(createServiceApplicationDto);
   }
 
