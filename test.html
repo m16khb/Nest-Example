@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <style>
+    html {
+      margin: 10rem;
+    }
+  </style>
+  <body>
+    <h1>Nginx Demo v0.1</h1>
+    <h2>
+      Hostname:
+      <p id="hostname"></p>
+    </h2>
+  </body>
+  <script>
+    let hostname = location.hostname;
+    document.querySelector('#hostname').innerHTML = hostname;
+  </script>
+</html>

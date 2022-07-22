@@ -1,0 +1,23 @@
+{
+  "db_type": "mongodb",
+  "tunnel": {
+    "username": "gaulim",
+    "host": "54.180.77.55",
+    "port": 22,
+    "dstPort": 27017,
+    "privateKeyPath": "/Users/gaulim/.ssh/aws/ec2/gaulim-paycoq-key-pair-ap2.pem",
+    "passphrase": "w5t3og4l"
+  },
+  "mongodb": {
+    "mongodbString": "mongodb+srv://root:0000@cluster0.xeeva.mongodb.net/?retryWrites=true&w=majority",
+    "mongodbOptions": {
+      "useNewUrlParser": true,
+      "sslValidate": true
+    }
+  },
+  "aws": {
+    "accessKeyId": "AKIAXISJYZFIG5T57MXM",
+    "secretAccessKey": "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",
+    "region": "ap-northeast-2"
+  }
+}

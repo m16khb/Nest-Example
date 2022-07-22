@@ -1,0 +1,13 @@
+{
+  "app": {
+    "name": "tablepay-api",
+    "description": "테이블페이 API"
+  },
+  "pushKeys": {
+    "publicKey": "BIp9SAEnY0tDxEO2oSGYLh7R5JCR2EkNXBNOJg9Dpk0tADvj0RQODrgvyeah1tBn1ryjkHiAtyzM-1wc41jn3fk",
+    "privateKey": "MLKMbUR_2kNY4MBgk2jhSf0R4cdU6y2vrju4ABPLYyo",
+    "email": "sammma@codehub.codes"
+  },
+  "mnemonics": "deal vendor ring tool similar liar dumb spray coffee rookie stumble method",
+  "jwtAlgorithm": "HS256"
+}
